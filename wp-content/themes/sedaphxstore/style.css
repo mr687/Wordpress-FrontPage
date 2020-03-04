@@ -1,0 +1,166 @@
+/* 
+    Theme Name: Sedaph x Store
+    Author: Mr687
+*/
+html {
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    scrollbar-width: none;
+    font-family: 'Roboto', sans-serif !important;
+}
+a{
+    color: #9e9e9e;
+}
+a:hover{
+    text-decoration: none;
+    color: #2e2e2e;
+}
+#main{
+    height: calc(100vh - 50px);
+    background-repeat: no-repeat;
+    background-position: 0 -40px;
+}
+.vertical-align{
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+.horizontal-align{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.tiny-font{
+    font-weight: 100 !important;
+    color: #FF0051 !important;
+}
+.banner h1{
+    letter-spacing: .2rem;
+}
+.banner .go-down{
+    bottom: 0;
+}
+.banner .btn{
+    border-color: #FF0051 !important;
+}
+.banner .btn:hover{
+    background: #FF0051 !important;
+}
+#features{
+    height: 100vh;
+    padding: 5rem 0;
+    background: #f7f7f7;
+    /* color: white; */
+}
+.nav.nav-pills a.active{
+    background: transparent;
+}
+#products{
+    padding: 5rem 1rem;
+}
+#products .box-item.centered{
+    background: #fff;
+}
+#products .box-item.centered .img-item img{
+    height: auto;
+    width: 270px;
+}
+#products .box-item{
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 20px;
+}
+#products .box-item:hover{
+    background: white;
+    box-shadow: 0px 0px 30px rgba(0,0,0,.2);
+}
+#products .box-item .description-item{
+    margin-top: 10px;
+    font-weight: 600;
+}
+#products .box-item .price-item{
+    font-size: 13px;
+    font-weight: 600;
+}
+#products .box-item .img-item img{
+    height: 200px;
+    width: auto;
+}
+#products #pills-tab{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#products #pills-tab li:hover{
+    border-bottom: 2px solid #4e4e4e;
+}
+#products #pills-tab li.active{
+    border-bottom: 2px solid #4e4e4e;
+}
+#products #pills-tab li.active a{
+    color: #2e2e2e;
+}
+#order{
+    padding: 5rem 0;
+    background: #eeeeee;
+}
+#order .kode-promo{
+    font-weight: 600;
+    border: 2px dotted #FF0051;
+    padding: 10px 20px;
+    display: inline-block;
+}
+footer{
+    padding: 1.3rem 20px;
+    background: #525252;
+    color: #eeeeee;
+}
+footer .links div{
+    padding: 3px 20px;
+}
+footer .links div:not(:last-child){
+    border-right: 2px solid #7e7e7e;
+}
+footer a{
+    color: #eeeeee;
+}
+footer small{
+    color: #aaaaaa;
+}
+
+
+
+
+.bounce-animate{
+    animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
+}
+
+
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+    40% {-webkit-transform: translateY(-30px);}
+    60% {-webkit-transform: translateY(-15px);}
+}
+
+@-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+    40% {-moz-transform: translateY(-30px);}
+    60% {-moz-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+    40% {-o-transform: translateY(-30px);}
+    60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
